@@ -36,7 +36,7 @@
                 <div class="flex items-center gap-2 bg-blue-50 px-6 py-4 rounded-full">
                     <input type="checkbox" checked="checked"
                         class="checkbox w-7 h-7 border-blue-600 bg-orange-400 checked:bg-blue-600 checked:text-white checked:border-white " />
-                    <p class="text-2xl font-bold">23</p>
+                    <p id="task-completed" class="text-2xl font-bold">23</p>
                 </div>
                 <img class="bg-blue-50 rounded-full p-3 hover:bg-gray-300 cursor-pointer" src="assets/theme-btn.png"
                     alt="">
@@ -57,7 +57,7 @@
                         </span>
                         <div>
                             <p class="pb-1 text-lg font-medium opacity-70">Task Assigned</p>
-                            <p class="font-bold text-4xl">06</p>
+                            <p id="task-assigned" class="font-bold text-4xl">06</p>
                         </div>
                     </div>
                     <!-- Discover Card -->
@@ -83,7 +83,7 @@
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card1-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                     <!-- Card 2 -->
@@ -93,27 +93,27 @@
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts.</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card2-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                     <!-- Card 3 -->
                     <div class="bg-blue-50 rounded-2xl p-6">
                         <p class="bg-white w-[114px] text-center px-4 py-2 rounded-lg mb-4">SwiftPay</p>
-                        <h3 class="font-medium text-2xl pb-4">Optimize  Home page</h3>
+                        <h3 class="font-medium text-2xl pb-4">Optimize  Home Page</h3>
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts.</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card3-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                     <!-- Card 4 -->
                     <div class="bg-blue-50 rounded-2xl p-6">
                         <p class="bg-white w-[114px] text-center px-4 py-2 rounded-lg mb-4">Meta</p>
-                        <h3 class="font-medium text-2xl pb-4">Add new emoji 🤲</h3>
+                        <h3 class="font-medium text-2xl pb-4">Add New Emoji 🤲</h3>
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts.</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card4-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                     <!-- Card 5 -->
@@ -123,17 +123,17 @@
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts.</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card5-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                     <!-- Card 6 -->
                     <div class="bg-blue-50 rounded-2xl p-6 mb">
                         <p class="bg-white w-[114px] text-center px-4 py-2 rounded-lg mb-4">Glassdoar</p>
-                        <h3 class="font-medium text-2xl pb-4">Improve Job searching </h3>
+                        <h3 class="font-medium text-2xl pb-4">Improve Job Searching </h3>
                         <p class="w-[295px] text-gray-500 bg-white rounded-lg p-4 mb-4">A card component has a figure, a body part, and inside body there are title and actions parts.</p>
                         <div class="flex gap-12 items-center border-t-2 border-dashed border-blue-100">
                             <p><span class="text-gray-500">Deadline</span> <br> <span class="text- font-medium">21 March 2025</span></p>
-                            <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
+                            <button id="card6-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Completed</button>
                         </div>
                     </div>
                 </div>
@@ -150,15 +150,18 @@
                     <button class="bg-blue-600 text-white px-5 py-3 rounded-lg mt-4 hover:bg-black hover:text-white cursor-pointer">Clear History</button>
                 </div>
                 <!-- Msg Section -->
-                <div class="px-8">
-                    <p class="w-[318px] mx-auto rounded-md p-3 mt-6 mb-7 bg-blue-50">You have Complete The Task Add <br> Dark Mode at 12:48:15 PM</p>
-                    <p class="w-[318px] mx-auto rounded-md p-3 mt-6 mb-7 bg-blue-50">You have Complete The Task Add <br> Dark Mode at 12:48:15 PM</p>
-                </div>
+                <div id="msg-container" class="px-8"></div>
             </div>
             </section>
         </div>
     </main>
     <script src="script/discover-btn.js"></script>
+    <script src="script/card1-btn.js"></script>
+    <script src="script/card2-btn.js"></script>
+    <script src="script/card3-btn.js"></script>
+    <script src="script/card4-btn.js"></script>
+    <script src="script/card5-btn.js"></script>
+    <script src="script/card6-btn.js"></script>
 </body>
 
 </html>
