@@ -38,7 +38,7 @@
                         class="checkbox w-7 h-7 border-blue-600 bg-orange-400 checked:bg-blue-600 checked:text-white checked:border-white " />
                     <p id="task-completed" class="text-2xl font-bold">23</p>
                 </div>
-                <img class="bg-blue-50 rounded-full p-3 hover:bg-gray-300 cursor-pointer" src="assets/theme-btn.png"
+                <img id="theme-btn" class="bg-blue-50 rounded-full p-3 hover:bg-gray-300 cursor-pointer" src="assets/theme-btn.png"
                     alt="">
             </div>
         </nav>
@@ -69,9 +69,10 @@
                     <!-- Date Card -->
                     <div class="w-72 flex gap-5 bg-blue-50 items-center rounded-xl px-6 py-5 my-6 mr-6">
                         <span class=" w-16 h-16 bg-white rounded-full p-4 ">
-                            <img class="m-auto" src="assets/calender.png" alt="">
+                            <img id="img-box" class="m-auto" src="assets/calender.png" alt="">
                         </span>
-                        <p class="text-2xl">Wed <span class="font-bold">,</span> <br> <span class="font-bold">Jul 28 2025</span></p>
+                        <p id="date-card" class="text-lg font-bold"></p>
+                        <!-- <p class="text-2xl">Wed <span class="font-bold">,</span> <br> <span class="font-bold">Jul 28 2025</span></p> -->
                     </div>
                 </div>
                 <!-- Card Section -->
@@ -163,6 +164,8 @@
     <script src="script/card5-btn.js"></script>
     <script src="script/card6-btn.js"></script>
     <script src="script/clear-btn.js"></script>
+    <script src="script/date.js"></script>
+    <script src="script/theme-btn.js"></script>
 </body>
 
 </html>
