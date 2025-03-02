@@ -1,6 +1,7 @@
 document.getElementById("card6-btn")
 .addEventListener("click", function(event){
-    alert("Board Updated Successfully")
+    alert("Board Updated Successfully.")
+    alert("Congrates!!! You have completed all the current Task.")
     // Task Assigned
     const taskAssigned = document.getElementById("task-assigned").innerText;
     const convertedTaskAssigned = parseInt(taskAssigned);
